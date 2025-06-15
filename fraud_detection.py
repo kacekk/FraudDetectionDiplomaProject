@@ -44,7 +44,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 
 # ╭────────── Configuration ───────────╮
 CONFIG = {
-    "DATA_PATH":  r"C:\Users\theka\OneDrive\Pulpit\diploma\creditcard.csv",
+    "DATA_PATH":  r"path_to_creditcard.csv",
     "TEST_SIZE":  0.30,
     "CV_FOLDS":   5,
     "RANDOM_STATE": SEED,
